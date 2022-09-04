@@ -1,5 +1,0 @@
-require("settings")
-require("autocmd")
-require("keybinds")
-require("plugins")
-require("startup").setup({theme = "dashboard"})
