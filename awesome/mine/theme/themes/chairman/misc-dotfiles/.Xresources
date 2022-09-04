@@ -1,0 +1,79 @@
+!    .Xresources
+!    for chairman AwesomeWM theme by bone3ye
+!-------------------------------------------------
+
+!-------------------------------------------------
+!	Bash config
+
+!-------------------------------------------------
+!	URxvt config
+
+URxvt.scrollBar:                      false
+URxvt.cursorBlink:                    true
+URxvt.cursorUnderline:                false
+URxvt.transparent:                    false
+URxvt.depth:						  32
+URxvt.background:                     #263238
+URxvt.foreground:                     #ffffff
+
+
+
+URxvt.font: 			xft:droidsansmono:size=12:hinting=true
+URxvt.boldFont: 		xft:droidsansmono:bold:size=12:hinting=true
+URxvt.italicFont:		xft:droidsansmono:italic:size=12:hinting=true
+URxvt.boldItalicFont:	xft:droidsansmono:bolditalic:size=12:hinting=true
+
+URxvt.perl-ext-common:  		default,clipboard,url-select,keyboard-select,vtwheel
+URxvt.url-select.launcher:      /usr/bin/google-chrome
+URxvt.url-select.underline:		true
+URxvt.matcher.button:   		1
+
+!-------------------------------------------------
+! 	URxvt Colors
+
+!original chariman theme highlight #FFA500
+!adapta-organge hightlight #E98D05
+!lighter amber variant #F0B356 for console main highlight
+!lighter-yet variant of above #FAE4C2
+!nice red #C3143B
+
+!black
+URxvt*color0:                                   #303030
+URxvt*color8:                                   #474747
+
+!red
+URxvt*color1:                                   #E7212A
+URxvt*color9:                                   #E7212A
+
+!green    no difference
+URxvt*color2:                                   #F0B356
+!URxvt*color2:                                   #D7D7D7
+URxvt*color10:                                  #E6E6E6
+!URxvt*color10:                                  #E6E6E6
+
+!yellow   no difference
+*color3:                                        #999999
+URxvt*color11:                                  #ffffff
+
+!blue			color4:BLOCK HIGHLIGHT color12:BOLD-FOL ls -al
+URxvt*color4:                                   #D4D4D4
+URxvt*color12:                                  #F0B356
+
+!magenta		color13:YAOURT-AUR-BOLD
+URxvt*color5:                                   #C3143B
+URxvt*color13:                                  #F0B356
+
+!cyan     screenfetch
+URxvt*color6:                                   #FAE4C2
+URxvt*color14:                                  #F0B356
+
+!URxvt*color6:                                   #D4D4D4
+!URxvt*color14:                                  #EDEDED
+
+!white
+URxvt*color7:                                   #ebebeb
+URxvt*color15:                                  #080808
+
+URxvt.colorIT:                                  #87af5f
+URxvt.colorBD:                                  #D4D4D4
+URxvt.colorUL:                                  #BF1E2D

@@ -1,0 +1,3 @@
+[submodule "awesome/collision"]
+	path = awesome/collision
+	url = https://github.com/Elv13/collision

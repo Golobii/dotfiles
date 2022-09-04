@@ -1,0 +1,59 @@
+#stefan's .conkyrc
+#simple clock
+#based on that raleway font one
+
+# Conky settings #
+background yes
+update_interval 1
+double_buffer yes
+no_buffers yes
+
+# Window specifications #
+gap_x 20
+gap_y 20
+minimum_size 600 0
+maximum_width 500
+own_window yes
+own_window_type desktop
+own_window_transparent yes
+own_window_hints undecorate,sticky,skip_taskbar,skip_pager,below
+own_window_argb_visual yes
+own_window_argb_value 0
+border_margin 0
+border_inner_margin 0
+border_outer_margin 0
+alignment middle_middle
+
+# Graphics settings #
+draw_shades no
+draw_outline no
+draw_borders no
+draw_graph_borders no
+
+# Text settings #
+use_xft yes
+xftalpha 0
+xftfont Open Sans Light:size=10
+
+override_utf8_locale yes
+
+imlib_cache_size 0
+
+# Color scheme #
+default_color FFFFFF
+
+color1 FFFFFF
+color2 FFFFFF
+color3 FFFFFF
+color4 FFFFFF
+color5 FFFFFF
+color6 FFFFFF
+color7 333333
+
+TEXT
+
+
+${font Open Sans:weight=Light:size=72}${voffset 90}${alignc}${time %H}${alignc}:${alignc}${time %M}
+${font Open Sans:weight=Regular:size=24}${voffset -80}${alignc}${time %A}, ${alignc}${time %B} ${alignc}${time %d}
+
+
